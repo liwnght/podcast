@@ -1,0 +1,90 @@
+* {
+    background-color: #191919;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+.image-section {
+    border-radius: 12px;
+    width: 600px;
+    height: 800px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 126%;
+    letter-spacing: 0.05em;
+}
+
+.text-next {
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+}
+.text-level {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+}
+
+.navigation {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    list-style: none;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1290px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.main-wrapper {
+    display:flex ;
+    justify-content: space-between;
+    height: 870px;
+}
+
+.main-img {
+    margin: 40px 0;
+    padding-right: 60px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    flex-direction: column;
+    align-items: center;  
+}
+
+.platform {
+    display: flex;
+    list-style: none;
+    padding-left: 0; 
+}
+
+.prov {
+    border: 1px solid red;
+    margin-right: auto;
+    padding-left: 20px;
+}
